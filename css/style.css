@@ -1,0 +1,25 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FDE2FF;
+	color: #5D576B;
+}
+
+
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+	color: #8884FF;
+}
+
+.title-logo {
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+hr {
+	border-top: 3px solid #D7BCE8;
+}

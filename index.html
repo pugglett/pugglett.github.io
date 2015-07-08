@@ -14,32 +14,53 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
-  	<div class="container">
-  		<div class="row logo-head">
-  			<div class="col-md-6">
+  	
+    <main class="container">
+  		
+      <header class="row logo-head">
+  			<div class="col-md-1">
   				<img class="title-logo img-responsive" src="images/bw.jpg" alt="Logo image - black and white pottery">
   			</div>
-  			<div class="col-md-6 text-uppercase text-right">
+  			<div class="col-md-11 text-uppercase text-right">
   				<h1 class="title-super">Lee Roberts</h1>
   				<h4>Front-end Ninja</h4>
   			</div>
-  		</div>
-  		<div class="row">
+  		</header>
+  		
+      <section class="row">
   			<div class="col-md-12">
-  				<hr>
+  				<nav class="nav navbar-nav">
+            <ul>
+              <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+            </ul>    
+          </nav>
   			</div>
-  		</div>
-  		<div class="row">
+  		</section>
+  		
+      <section class="row">
   			<div class="col-md-12">
   				<img class="img-responsive" src="images/flower-hero.jpg" alt="Hero image - a tree with blooming flowers">
   			</div>
-  		</div>
-      <div class="row">
+  		</section>
+      
+      <section class="row">
         <div class="col-md-12">
           <h2>Featured Work</h2>
         </div>
-      </div>
-      <div class="row text-center">
+      </section>
+      
+      <section class="row text-center">
         <div class="col-md-4">
           <img class="img-responsive" src="images/bark.jpg" alt="App image - bark" data-toggle="modal" data-target="#bark">
           <h3 class="text-uppercase">Bark</h3>
@@ -55,8 +76,10 @@
           <h3 class="text-uppercase">Orange</h3>
           <p>https://github.com/udacity/bokeh</p>
         </div>
-      </div>
-  	</div>
+      </section>
+  	
+    </main>
+    
     <!-- Modal -->
     <div class="modal fade" id="bark" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">

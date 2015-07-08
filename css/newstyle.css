@@ -1,0 +1,29 @@
+body {
+	padding-top: 70px;
+	background: url("../images/fish.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	background-color: #ccc;
+}
+
+nav {
+	font-size: 20px;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/*html { 
+background: url(../images/fish.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}*/

@@ -23,3 +23,8 @@ body {
 hr {
 	border-top: 3px solid #D7BCE8;
 }
+
+.search {
+	margin-top: 5px;
+	background-color: inherit;
+}

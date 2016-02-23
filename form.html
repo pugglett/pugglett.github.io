@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Test</title>
+</head>
+<body>
+<form action="http://formspree.io/leer5501@gmail.com"
+      method="POST">
+
+    <!-- Text input - single line -->
+    <p>Full name:
+    	<input type="text" name="fullname">
+    </p>
+
+    <!-- Text areas - multiline -->
+    <p>What do you think about this website?
+    	<textarea name="feedback">Enter your comments here.</textarea>
+    </p>
+
+    <!-- Radio buttons -->
+    <p>What day is it?
+    	<br />
+    	<input type="radio" name="day" value="Monday" checked="checked" /> Monday
+    	<input type="radio" name="day" value="Tuesday" /> Tuesday
+    	<input type="radio" name="day" value="Wednesday" /> Wednesday
+    	<input type="radio" name="day" value="Thursday" /> Thursday
+    	<input type="radio" name="day" value="Friday" /> Friday
+    </p>
+
+    <!-- Checkboxes -->
+    <p>Please select your favorite ice cream flavor(s):
+	    <br />
+	    <input type="checkbox" name="icecream" value="chocolate" /> Chocolate
+	    <input type="checkbox" name="icecream" value="vanilla" /> vanilla
+	    <input type="checkbox" name="icecream" value="neopolitan" /> neopolitan
+	    <input type="checkbox" name="icecream" value="butter pecan" /> butter pecan
+    </p>
+
+    <!-- Drop down list -->
+    <p>Select your favorite dog breed:</p>
+    <select name="dogs">
+    	<option value="pug">Pug</option>
+    	<option value="frenchie">frenchie</option>
+    	<option value="bulldog">bulldog</option>
+    </select>
+    
+    <!-- Submitting forms -->
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
